@@ -1,5 +1,5 @@
 let parola = prompt("Scegli pari o dispari:");
-let numeroUtente = parseInt(prompt("Scegli pari o dispari inserendo un numero:"));
+let numeroUtente = parseInt(prompt("Inserisci un numero:"));
 let somma = 0;
 
 
@@ -7,6 +7,8 @@ if (numeroUtente > 5 || numeroUtente < 0) {
     console.log("Inserisci un numero compreso tra 0 e 5");
 } else {
     console.log("Il numero scelto dall'utente è:" + numeroUtente);
+    
+    
     let numeroComputer = getRandomNumber(0, 5);
     console.log("Il numero estratto dal computer è:" + numeroComputer);
 
